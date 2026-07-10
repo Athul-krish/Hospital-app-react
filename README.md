@@ -1,16 +1,98 @@
-# React + Vite
+# 🏥 Hospital Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Hospital Management System built using **React + Vite + Bootstrap + Axios**. This project demonstrates the fundamentals of React, including component-based architecture, routing, state management using `useState`, side effects with `useEffect`, and fetching data from an external API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add Patient
+- 🔍 Search Patient
+- 🏥 Discharge Patient
+- 📋 View All Patients
+- 📱 Responsive UI using Bootstrap
+- 🌐 Fetch patient data from an online JSON API
+- ⚛️ Built with React Hooks (`useState` & `useEffect`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Bootstrap 5
+- Axios
+- React Router DOM
+- JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```
+hospital-app/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── AddPatient.jsx
+│   │   ├── SearchPatient.jsx
+│   │   ├── DischargePatient.jsx
+│   │   └── ViewAll.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 📡 API Used
+
+Patient data is fetched from:
+
+https://raw.githubusercontent.com/anishpdm/demo-json-api/refs/heads/main/hospital-data.json
+
+---
+
+## 📥 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/hospital-app.git
+```
+
+## 📚 React Concepts Practiced
+
+- Functional Components
+- JSX
+- Props
+- React Router
+- useState
+- useEffect
+- API Fetching with Axios
+- Bootstrap Grid System
+- Tables
+- Responsive Design
+- Component Reusability
+
+---
+
+## 👨‍💻 Author
+
+**Athul Krishna**
+
+MCA Student | MERN Stack Learner
+
+GitHub: https://github.com/Athul-krish
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub!
