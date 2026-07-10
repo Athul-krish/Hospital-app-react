@@ -53,7 +53,7 @@ const ViewAll = () => {
                       <td>{value.gender}</td>
                       <td>{value.bloodGroup}</td>
                       <td>{value.doctor}</td>
-                      <td>{value.room}</td>
+                      <td>{value.roomNo}</td>
                       <td>{value.mobile}</td>
                     </tr>
                   ))}
